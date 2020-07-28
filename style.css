@@ -168,6 +168,7 @@ body{
 .social i{
     color: lightcoral;
     font-size: 20px;
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 768px){
@@ -179,7 +180,7 @@ body{
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 340px){
     .site-content .site-title{
         font-size: 30px;
         padding-left: 15%;
@@ -196,13 +197,14 @@ body{
     }
     .section-1 .col-md-4 {
         padding: 5%;
-        margin-left: 8%;
+        margin-left: 10%;
     }
     .section-1 .card{
         width: 15rem;
     }
     .section-4 .col-md-5, .section-4 .col-md-7{
         padding: 0% 0%;
+        margin-left: 2%;
     }
     footer input[type="button"]{
         margin-top: 5%;
